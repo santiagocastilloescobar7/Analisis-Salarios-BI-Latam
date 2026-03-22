@@ -1,13 +1,12 @@
 -- ============================================================
 --  PROYECTO: ¿Cuánto gana un Analista BI en LATAM? (2025)
 --  Herramienta: MySQL Workbench
---  Autor: [Tu nombre] | LinkedIn Project
+--  Autor: [Santiago Castillo Escobar] | LinkedIn Project
 -- ============================================================
 
 
 -- ============================================================
---  PASO 1: CREAR LA BASE DE DATOS Y TABLAS
---  Selecciona todo este bloque y presiona Ctrl+Shift+Enter
+--  PASO 1: BASE DE DATOS Y TABLAS
 -- ============================================================
 
 DROP DATABASE IF EXISTS proyecto_salarios_bi;
@@ -60,7 +59,6 @@ CREATE TABLE impacto_habilidades (
 
 -- ============================================================
 --  PASO 2: INSERTAR DATOS
---  Selecciona todo este bloque y presiona Ctrl+Shift+Enter
 -- ============================================================
 
 INSERT INTO paises VALUES
@@ -119,8 +117,6 @@ INSERT INTO impacto_habilidades VALUES
 
 -- ============================================================
 --  PASO 3: CONSULTAS DE ANÁLISIS
---  Pon el cursor dentro de cada consulta y presiona
---  Ctrl+Shift+Enter para ejecutarla una por una
 -- ============================================================
 
 -- CONSULTA 1: ¿Cuánto gana en promedio un BI Analyst por país?
